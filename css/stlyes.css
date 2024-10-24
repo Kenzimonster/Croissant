@@ -1,3 +1,32 @@
+:root{
+  --primary-color:#ff1493;
+}
+
+@media(max-width:576px){
+  body{
+    font-family: "IM Fell French Canon", serif;
+    text-align: center;
+  }
+}
+
+body{
+  background-color: rgb(250, 243, 244);
+}
+
+.menu{
+  background-color: rgb(238, 186, 194);
+  border-radius: 5px;
+}
+
 h1{
+  color: var(--primary-color);
+  font-weight: bold;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.foot-note{
+  font-size: 12px;
+  margin: 20px auto;
   text-align: center;
 }
